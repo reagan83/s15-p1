@@ -66,6 +66,10 @@ body {
 
 h4 {
   padding-top: 1em;
+  padding-bottom: 0px;
+  margin-bottom: 3px;
+  color: #;
+  font-weight: bold;
 }
 
 /* Padding for spacing */
@@ -157,6 +161,24 @@ h4 {
   -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
   box-shadow: 0 1px 1px rgba(0,0,0,0.3);
 }
+
+
+.avatar-image {
+  width: 120px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.avatar--large {
+  width: 120px;
+  height: 120px;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
 
 
 /*
