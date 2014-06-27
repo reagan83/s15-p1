@@ -27,13 +27,13 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
+
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
@@ -47,17 +47,31 @@ body {
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
+  background-color: #333;
 }
 .cover-container {
   margin-right: auto;
   margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 300px;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 35px;
+}
+
+h4 {
+  padding-top: 1em;
 }
 
 /* Padding for spacing */
 .inner {
   padding: 30px;
 }
-
 
 /*
  * Header
@@ -127,6 +141,23 @@ body {
   color: rgba(255,255,255,.5);
 }
 
+.hero--profile .hero-avatar {
+  margin-top: -60px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  border: 3px solid #fff;
+  z-index: 500;
+  position: relative;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
 
 /*
  * Affix and center
@@ -135,11 +166,9 @@ body {
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
     top: 0;
   }
   .mastfoot {
-    position: fixed;
     bottom: 0;
   }
   /* Start the vertical centering */
