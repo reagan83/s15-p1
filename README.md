@@ -22,4 +22,4 @@ N/A
 
 
 ## Remaining work to do
-* To help the teaching team get to know you better, embed an image of yourself on your page.
+N/A
